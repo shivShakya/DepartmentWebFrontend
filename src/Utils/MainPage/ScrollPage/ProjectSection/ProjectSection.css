@@ -1,0 +1,112 @@
+
+.container-proj {
+  width: 100%;
+  height: auto; /* Remove fixed height */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust alignment as needed */
+  align-items: center;
+  background-color: #445e6b;
+  background-image: linear-gradient(90deg,   #8299a5, #253942 100%);
+  overflow-x: scroll;
+}
+
+.box {
+  width: calc(20% - 20px); /* 20% width for each box with margins */
+  height: 40vh; /* Adjusted height based on container's height */
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 50px; /* Adjusted padding top */
+  margin: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+}
+.project-page-btn{
+      width: 20%;
+      height: 5vh;
+      background-color: #253942;
+      color: wheat;
+      border-radius: 20px;
+      margin: 5px;
+}
+.project-page-btn:hover{
+        background-color: white;
+        color: #253942;
+}
+
+
+
+.box h3 {
+  font-size: 35px;
+  padding: 20px 0;
+  color: #444;
+}
+
+.box p {
+  font-size: 15px;
+  color: #777;
+}
+
+
+
+.box::before,
+.box::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box::after {
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+  z-index: -1;
+  clip-path: circle(20% at 90% 10%);
+  transition: 0.2s;
+}
+
+.box .count {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #fff;
+}
+.box:nth-child(1)::after,
+.box:nth-child(2)::after,
+.box:nth-child(3)::after,
+.box:nth-child(4)::after
+  {
+  background-color: #8299a5;
+  background-image: linear-gradient(0deg, #95abb7 0%,   #445e6b 100%);
+}
+
+.box:hover::after {
+  clip-path: circle(100%);
+}
+
+.box:hover h3,
+.box:hover p {
+  color: #fff;
+}
+
+.box:hover button {
+  color: #333;
+  background-color: #fff;
+}
+
+.box:hover::before {
+  background-color: rgba(0, 0, 0, 0.1);
+}

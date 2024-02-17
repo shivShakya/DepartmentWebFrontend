@@ -1,0 +1,480 @@
+
+  @media screen and (min-width: 769px) {
+    @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Inknut+Antiqua:wght@300&family=Inter:wght@100;400&family=Jua&family=Meera+Inimai&family=Nova+Oval&family=Offside&family=Pacifico&display=swap');
+    .admission {
+        width: 94.6%;
+        height: 53rem;
+        position: relative;
+        margin-left: -3rem;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    .container-1{
+        width: 100%;
+        height: 830px;
+        position: relative;
+      }
+    
+      .container-2{
+        width: 30%;
+        height: 88.08px;
+        left: 60.78px;
+        top: 310.02px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+      }
+      .content{
+        width: 100%;
+        height: 88.08px;
+        color: #D71C1C;
+        font-size: 23px;
+        font-family: Inter;
+        font-weight: 800;
+        word-wrap: break-word;
+      }
+      .container-3{
+        width: 95%;
+        height: 452.27px;
+        left: 200.79px;
+        top: -60.18px;
+        position: absolute;
+      }
+      .image-container{
+        width: 90%;
+        height: 93.16px;
+        left: 0px;
+        top: 100px;
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        font-family: Inter;
+        font-weight: 900;
+        word-wrap: break-word;
+      }
+      .department-text{
+        width: 45.04181rem;
+        height: 17.89156rem;
+        flex-shrink: 0;
+        color: #FFF;
+        margin-left: -13rem;
+        font-family: Inter;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+      }
+      .divider{
+        width: 70%; 
+        height:10px; 
+        left: -210px; 
+        top:560.27px; 
+        position: absolute; 
+        transform: rotate(-0.57deg); 
+        transform-origin: 0 0;
+        border: 4px white solid;
+      }
+      .container-4{
+        width: 776.24px; 
+        height: 181.24px; 
+        left: 5.38px; 
+        top: 545.45px; 
+        position: absolute
+      }
+      .courses-offered{
+        width: 637.63px; 
+        height: 88.97px; 
+        left: 0px;
+        top: -20px; 
+        position: absolute; 
+        color: white; 
+        font-size: 90%; 
+        font-family: Abhaya Libre; 
+        font-weight: 400; 
+        word-wrap: break-word;
+      }
+      .courses-list{
+        width: 50%;
+        height: 123.58px;
+        left: 34.12px;
+        top: 67.67px;
+        position: absolute; 
+        color: white;
+        font-size: 150%; 
+        font-family: Abel; 
+        font-weight: 400; 
+        word-wrap: break-word;
+      }
+      .container-5{
+        width: 60.53px;
+        height: 57.50px;
+        left: 800.89px;
+        top: 12.42px;
+        position: absolute;
+      }
+      .background-shape{
+        width: 500%;
+        height: 400px;
+        left: 124.08px;
+        top: 0px;
+        position: absolute;
+        transform: rotate(6.95deg);
+        transform-origin: 0 0;
+        background: linear-gradient(85deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%);
+      
+      }
+    
+      .content-1{
+           color: #D71C1C;
+           margin-top: 20%;
+      }
+      .image-container{
+        width: 30.38px; 
+        height: 47.75px;
+        left: 130.96px; 
+        top: 41.89px;
+        position: absolute;
+      }
+      .container-6{
+        width: 432.04px;
+        height: 81.31px;
+        left: 34.06px;
+        top: 711.43px;
+        position: absolute;
+      
+      }
+      .button-container{
+        width: 35%; 
+        height: 60.31px; 
+        left: 0px;
+        top: 0px;
+        border-radius: 3.75rem;
+        position: absolute;
+        background: white;
+      }
+      .button-text{
+        width: 100%;
+        height: 44.04px;
+        top: 18.63px;
+        position: absolute;
+        color: #666D90;
+        font-size: 98%; 
+        font-family: Jua;
+        font-weight: 400; 
+        word-wrap: break-word;   
+      }
+      .container-7{
+        width: 804.03px;
+        height: 254.08px;
+        left: 520.70px;
+        top: 593.72px;
+        margin: 0.5rem;
+        position: absolute;
+      }
+      .contact-info{
+        width: 804.03px;
+        height: 254.08px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+      }
+      .contact-background{
+        width: 804.03px;
+        height: 254.08px; 
+        left: 0px;
+        top: 0px;
+        position: absolute;
+          overflow:hidden;
+          clip-path: polygon(
+            0 100%,
+            58% 0,
+            100% 0%,
+            100% 100%,
+            100% 100%,
+            100% 100%,
+            100% 100%,
+            100% 100%,
+            100% 100%) ;
+            background: white;
+      
+      }
+      .contact-header{
+        width: 250.97px;
+        height: 16.94px;
+        left: 432.94px;
+        top: 40.84px;
+        position: absolute;
+        color: black;
+        font-size:40px;
+        font-family: Inter;
+        font-weight: 800;
+        word-wrap: break-word;
+      }
+      .contact-details{
+        width: 430.25px;
+        height: 121.96px;
+        left: 380.51px;
+        top: 100.86px;
+        position: absolute;
+        text-align: left;
+        color: black;
+        font-size: 99%;
+        font-family: Inter;
+        font-weight: 800;
+        word-wrap: break-word;
+      }
+
+      .tip{
+          display: none;
+      }
+    
+  }
+
+
+  @media screen and (max-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Inknut+Antiqua:wght@300&family=Inter:wght@100;400&family=Jua&family=Meera+Inimai&family=Nova+Oval&family=Offside&family=Pacifico&display=swap');
+    .admission {
+        width: 94.6%;
+        height: 10rem;
+        position: relative;
+        margin-left: -3rem;
+        margin-top: 20%;
+        margin-bottom: 40%;
+    }
+
+    .adm-details{
+         display: none;
+    }
+
+     
+
+    .top{
+       display: none;
+    }
+
+    .flex-container{
+       display: none;
+    }
+
+    .container-1{
+      width: 100%;
+      height: 200px;
+      position: relative;
+    }
+  
+    .container-2{
+      width: 30%;
+      height: 88.08px;
+      left: 60.78px;
+      top: 310.02px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+    }
+    .content{
+      width: 100%;
+      height: 88.08px;
+      color: #D71C1C;
+      font-size: 23px;
+      font-family: Inter;
+      font-weight: 800;
+      word-wrap: break-word;
+    }
+    .container-3{
+      width: 95%;
+      height: 90%;
+      left: 200.79px;
+      top: -60.18px;
+      position: absolute;
+    }
+    .image-container{
+      width: 90%;
+      height: 93.16px;
+      left: 0px;
+      top: 100px;
+      position: absolute;
+      color: white;
+      font-size: 24px;
+      font-family: Inter;
+      font-weight: 900;
+      word-wrap: break-word;
+    }
+    .department-text{
+      width: 80%;
+      height: 50%;
+      flex-shrink: 0;
+      color: #FFF;
+      margin-left: -13rem;
+      font-family: Inter;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+    }
+    .divider{
+      width: 70%; 
+      height:10px; 
+      left: -210px; 
+      top:560.27px; 
+      position: absolute; 
+      transform: rotate(-0.57deg); 
+      transform-origin: 0 0;
+      border: 4px white solid;
+    }
+    .container-4{
+      width: 65%; 
+      height: 181.24px; 
+      left: 5.38px; 
+      top: 545.45px; 
+      position: absolute
+    }
+    .courses-offered{
+      width: 60%; 
+      height: 88.97px; 
+      left: 0px;
+      top: -20px; 
+      position: absolute; 
+      color: white; 
+      font-size: 90%; 
+      font-family: Abhaya Libre; 
+      font-weight: 400; 
+      word-wrap: break-word;
+    }
+    .courses-list{
+      width: 50%;
+      height: 5em;
+      left: 34.12px;
+      top: 67.67px;
+      position: absolute; 
+      color: white;
+      font-size: 150%; 
+      font-family: Abel; 
+      font-weight: 400; 
+      word-wrap: break-word;
+    }
+    .container-5{
+      width: 25%;
+      height: 5em;
+      left: 800.89px;
+      top: 12.42px;
+      position: absolute;
+    }
+    .background-shape{
+      width: 500%;
+      height: 400px;
+      left: 124.08px;
+      top: 0px;
+      position: absolute;
+      transform: rotate(6.95deg);
+      transform-origin: 0 0;
+      background: linear-gradient(85deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 100%);
+    
+    }
+  
+    .content-1{
+         color: #D71C1C;
+         margin-top: 20%;
+    }
+    .image-container{
+      width: 20%; 
+      height: 47.75px;
+      left: 130.96px; 
+      top: 41.89px;
+      position: absolute;
+    }
+    .container-6{
+      width: 30%;
+      height: 20%;
+      left: 34.06px;
+      top: 711.43px;
+      position: absolute;
+    
+    }
+    .button-container{
+      width: 35%; 
+      height: 60.31px; 
+      left: 0px;
+      top: 0px;
+      border-radius: 3.75rem;
+      position: absolute;
+      background: white;
+    }
+    .button-text{
+      width: 100%;
+      height: 44.04px;
+      top: 18.63px;
+      position: absolute;
+      color: #666D90;
+      font-size: 98%; 
+      font-family: Jua;
+      font-weight: 400; 
+      word-wrap: break-word;   
+    }
+    .container-7{
+      width: 804.03px;
+      height: 254.08px;
+      left: 520.70px;
+      top: 593.72px;
+      margin: 0.5rem;
+      position: absolute;
+    }
+    .contact-info{
+      width: 804.03px;
+      height: 254.08px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+    }
+    .contact-background{
+      width: 804.03px;
+      height: 254.08px; 
+      left: 0px;
+      top: 0px;
+      position: absolute;
+        overflow:hidden;
+        clip-path: polygon(
+          0 100%,
+          58% 0,
+          100% 0%,
+          100% 100%,
+          100% 100%,
+          100% 100%,
+          100% 100%,
+          100% 100%,
+          100% 100%) ;
+          background: white;
+    
+    }
+    .contact-header{
+      width: 250.97px;
+      height: 16.94px;
+      left: 432.94px;
+      top: 40.84px;
+      position: absolute;
+      color: black;
+      font-size:40px;
+      font-family: Inter;
+      font-weight: 800;
+      word-wrap: break-word;
+    }
+    .contact-details{
+      width: 430.25px;
+      height: 121.96px;
+      left: 380.51px;
+      top: 100.86px;
+      position: absolute;
+      text-align: left;
+      color: black;
+      font-size: 99%;
+      font-family: Inter;
+      font-weight: 800;
+      word-wrap: break-word;
+    }
+
+
+  }
+
+
+ 

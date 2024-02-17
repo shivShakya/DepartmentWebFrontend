@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Inknut+Antiqua:wght@300&family=Inter:wght@100;400&family=Meera+Inimai&family=Nova+Oval&family=Offside&family=Pacifico&display=swap');
+
+@media screen and (min-width: 769px) {
+      .scrl-page{
+          background-color: rgb(255, 255, 255);
+          z-index: 1;
+          height: 300vh;
+         
+      }
+
+      .final{
+           width: 100%;
+           background-color: #863D3D;
+           height: 300px;
+           margin-top: 30rem;
+           bottom: 0;
+      }
+    
+      .admission{
+         width: 95%;
+         height: 30%;
+         background-color: #ffffff;
+         margin-top: 2%;
+      }
+      .campus{
+        width: 95%;
+        height: 30%;
+        background: #D6C77C;
+        margin-top: 2%;
+     }
+     .event{
+        width: 95%;
+        height: 30%;
+        background: #4B5B74;
+        margin-top: 2%;
+     }
+
+     .alumni{
+        width: 95%;
+        height: 30%;
+        background: #ffffff;
+        margin-top: 2%;
+     }
+
+      @keyframes move {
+           from {
+                 margin-top: 0;
+           }
+
+           to {
+              margin-top: -50rem;
+           }
+      }
+
+
+
+
+      
+      .logIn-btn{
+        position: fixed;
+        z-index: 20000;
+        display: flex;
+        justify-content: flex-end;
+        width: 80%;
+        margin-right: 5.6743rem;
+        align-items: center;
+     }
+     .login{
+         width: 100px;
+         height: 1.8125rem;
+         flex-shrink: 0;
+         border-radius: 2.5rem;
+         font-size: 60%;
+         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     }
+     .login:hover{
+         background-color: #4B5B74;
+         color: white;
+     }
+     .head-name{
+         color: #FFF;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     font-family: Inter;
+     font-size: 1.25rem;
+     font-style: italic;
+     font-weight: 400;
+     line-height: 0.125rem;
+     margin-right: 20%;
+     }
+
+
+  }
+
+
+  @media screen and (min-width: 769px) {
+   
+    .back-ground{
+          width: 100%;
+          height: 26.5%; 
+          margin-top: 50rem;   
+          background-color: rgb(255, 255, 255);
+    }
+
+    .back-img{
+        width: 100%;
+        height: 47.125rem;
+        flex-shrink: 0;
+        background: url("./assets/backgroudSppU.png");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Maths{
+        width: 70%;
+        height: 3.4375rem;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 3.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .tab-box{
+          display: flex;
+          justify-content: center;
+          margin-top: -110px;
+    }
+
+    .nav-tabs{
+         width: 80%;
+         display: flex;
+         justify-content: center;
+        
+    }
+
+    .tabs{
+        width: 25%;
+        height: 200px;
+    }
+    .ad{
+       background-color: #934848;
+    }
+    .camp{
+       background: #D6C77C;
+    }
+    .eve{
+        background: #4B5B74;
+    }
+    .alm{
+        background: #264725;
+    }
+
+    .head{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: 900;
+    }
+
+
+    #end-btn{
+        display: flex;
+        justify-content: flex-end;
+        z-index: 10;
+      }
+      
+      #end-scroll{
+        margin: 2%;
+       background-color: rgb(165, 152, 152);
+       opacity: 0.4;
+       width: 5%;
+       height: 5%;
+       position: fixed;
+       bottom: 0;   
+      }
+      #end-scroll:hover{
+        opacity: 1;
+      }
+
+      .login-tb-mob{
+          display: none;
+      }
+
+
+     .Nav-bar-btn-mob{
+      display: none;
+   }
+   
+   
+      
+      
+}
+
+@media screen and (max-width: 768px) {
+
+    .scrl-page{
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        height: 200rem;
+        animation: 5s move forwards;
+    }
+
+    .foot{
+        width: 112.1%;
+        height: 10em;
+        background-color: #741515;
+        bottom: 0;
+        margin-left: -10%;
+        margin-top: 40%;
+    }
+   
+
+
+    .pages{
+         width: 95%;
+         height: 200rem;
+         background-color: rgb(255, 255, 255);
+         padding-left: 3%;
+         margin-top: 3%;
+    }
+
+    .admission{
+       width: 95%;
+       height: 30%;
+       background-color: #ffffff;
+       margin-top: 2%;
+    }
+    .campus{
+      width: 95%;
+      height: 30%;
+      background: #D6C77C;
+      margin-top: 2%;
+   }
+   .event{
+      width: 95%;
+      height: 30%;
+      background: #4B5B74;
+      margin-top: 2%;
+   }
+
+   .alumni{
+      width: 95%;
+      height: 30%;
+      background: #ffffff;
+      margin-top: 2%;
+   }
+
+    @keyframes move {
+         from {
+               margin-top: 0;
+         }
+
+         to {
+            margin-top: -50rem;
+         }
+    }
+
+
+
+
+    
+    .logIn-btn{
+      position: absolute;
+      z-index: 9999;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      width: 80%;
+      margin-top: 15.5674rem; 
+      align-items: center;
+   }
+   #login{
+       width: 15%;
+       height: 2.8125rem;
+       flex-shrink: 0;
+       border-radius: 2.5rem;
+       font-size: 0.6%;
+       color: #FFF;
+       background: #741515;
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+   .head-name{
+       color: #FFF;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   font-family: Inter;
+   font-size: 0.8rem;
+   font-style: italic;
+   font-weight: 400;
+   line-height: 0.125rem;
+   }
+
+
+.back-ground{
+    width: 100%;
+    height: 26.5%;    
+    background-color: rgb(255, 255, 255);
+}
+
+.back-img-mob{
+  width: 100%;
+  height: 50.125rem;
+  flex-shrink: 0;
+  background: url("../FrontPage/back.png"),lightgray 100% / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Maths{
+  width: 70%;
+  height: 3.4375rem;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tab-box{
+    display: flex;
+    justify-content: left;
+    margin-top: -5em;
+    width: 100%;
+    margin-right: 24%;
+    margin-bottom: 15%;
+}
+
+.nav-tabs{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.tabs{
+  width: 20%;
+  height: 70px;
+}
+.ad{
+ background-color: #934848;
+}
+.camp{
+ background: #D6C77C;
+}
+.eve{
+  background: #4B5B74;
+}
+.alm{
+  background: #264725;
+}
+
+.head{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+
+#end-btn{
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+#end-scroll{
+  margin: 2%;
+ background-color: rgb(165, 152, 152);
+ opacity: 0.4;
+ width: 5%;
+ height: 5%;
+ position: fixed;
+ bottom: 0;   
+}
+#end-scroll:hover{
+  opacity: 1;
+}
+
+#login{
+  display: none;
+}
+
+   
+}

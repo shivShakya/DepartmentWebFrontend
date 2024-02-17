@@ -1,0 +1,152 @@
+@media screen and (min-width : 769px ) {
+  .events{
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.box1 {
+  z-index: 2;
+  background-color: #D9D9D9;;
+  width: 100%;
+  height: 500px;
+  margin-left: -10%;
+  flex-shrink: 0;
+  position: absolute;
+}
+.box2 {
+  z-index: 1;
+  background-color:white;
+  width:100%;
+  height: 936px;
+  position: relative;
+  border: black;
+  flex-shrink:0;
+  display:flex;
+  align-items: center;
+  padding: 10px;
+}
+.box3 {
+  z-index:2;
+  position: absolute;
+  top: -72px;
+  left: 1px;
+  width:50%;
+  height: 767px; 
+}
+.box4 {
+  z-index:2;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 55%;
+  width: 50%;
+  height: 767px;
+
+}
+.event-button{
+  width: 20%;
+  height: 56px;
+  margin-top: -160rem;
+  background-color:white;
+  color:black;
+  margin-left: -7%;
+  font-family: Inria Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 20px;
+  border-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index:3;
+}
+.event-button:hover{
+  background-color:rgb(125, 133, 135);
+  color:white;
+}
+
+
+.main-screen {
+    width: 53rem;
+    height: 451px;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    background: white;
+    display: flex;
+    margin-top: -44rem;
+    margin-left: 15%;
+}
+
+.image{ 
+width: 30%;
+height: 392px;
+background-color:black;
+z-index:4;
+position: absolute;
+left :45px;
+
+}
+
+.invitation {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  height: 292px;
+  z-index:4;
+  position: absolute;
+  left : 40%;
+}
+
+.event-details {
+  font-size: 20%;
+  color: #000;
+  font-family: Inria Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 5;
+  left:675 px;
+}
+
+
+.emoji {
+  font-size: 24px;
+}
+
+.dress-code {
+  font-weight: bold;
+}
+
+.mobile-deisgn-eve{
+     display: none;
+}
+
+}
+
+@media screen and (max-width : 768px ) {
+          .desktop-design-eve{
+               display: none;
+          }
+          .mobile-deisgn-eve{
+               margin-bottom: 13em;
+               margin-top: 50em;
+          }
+
+          .box4{
+              margin-top: -29em;
+          }
+
+          .screen{
+               width: 300px;
+              height: 300px;
+               position: absolute;
+               z-index: 2;
+               margin-left: 5%;
+          }
+} 
+

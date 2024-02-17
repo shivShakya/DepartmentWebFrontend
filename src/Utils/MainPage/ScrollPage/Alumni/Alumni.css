@@ -1,0 +1,177 @@
+@media screen and (min-width: 769px) {
+.alumi-main{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+ }
+
+ .alumni-mat{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+ }
+ .alm-info{
+    width: 61.0625rem;
+    height: 35rem;
+    flex-shrink: 0; 
+    margin-top: 5%;
+ }
+
+ .alm-tag{
+    color: #4D3739;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inria Serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .al-content{
+    color: #4D3739;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ 
+ .hod-message{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 47%;
+     height: 40rem;
+     flex-shrink: 0;
+     border-radius: 6.25rem;
+     background: rgba(29, 49, 120, 0.93);
+     box-shadow: 15px 15px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ 
+ .hod-text{
+     display: flex;
+     width: 60%;
+     height: 49.90344rem;
+     flex-direction: column;
+     justify-content: center;
+     text-align: left;
+     flex-shrink: 0;
+     color: #FFF;
+     font-family: Inria Sans;
+     font-size: 1.2875rem;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+ }
+ .alm-form{
+        display: flex;
+        justify-content: center;
+        margin-top: -55em;
+        margin-left: 55%;
+ }
+
+ .form{
+      margin-top: 39em;
+      margin-left: -20em;
+ }
+
+ .warning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;    
+    line-height: normal;
+    margin-left: 8%;
+ }
+ .info{
+    display: flex;
+    width: 13.3325rem;
+    height: 5.18544rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .al-btn{
+    width: 21.6875rem;
+    height: 3.41375rem;
+    flex-shrink: 0;
+    border-radius: 12.5rem;
+    background: #A02424;
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+ }
+
+ .mobile-design{
+     display: none;
+ }
+}
+
+
+@media screen and (max-width: 769px) {
+   .almuni-main{
+        display: none;
+   }
+
+   .form-box{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+   }
+
+   .content-mob{
+      color: #4D3739;
+      text-align: center;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: Inria Serif;
+      font-size: 1.5625rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+   .only-alm{
+      color: #000000;
+      font-family: Inria Sans;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+   }
+   .info-det{
+      color: #000;
+      font-family: Inria Sans;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+   }
+
+   .click-here{
+      width: 10.6875rem;
+      height: 1.9375rem;
+      flex-shrink: 0;
+      color: #FFF;
+      border-radius: 1.25rem;
+      background: #A02121;
+   }
+
+   .form-style{
+        margin-left: -5rem;
+   }
+}

@@ -1,0 +1,166 @@
+.alm-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+}
+
+.content{
+width: 30%;
+height: 24.4375rem;
+flex-shrink: 0;
+margin: 15%;
+}
+
+.content:nth-child(0){
+width: 50%;
+height: 8.47456rem;
+flex-shrink: 0;
+color: #4D3739;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Inria Serif;
+font-size: 4rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.content:nth-child(1){
+width: 60%;
+height: 12.67538rem;
+flex-shrink: 0;
+color: #4D3739;
+text-align: center;
+font-family: Inria Serif;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.boxes{
+width: 98%;
+height: 55.375rem;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+}
+
+.boxx{
+width: 42%;
+height: 39.0725rem;
+flex-shrink: 0;
+border-radius: 1.875rem;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin: 5px;
+
+}
+
+.heading{
+width: 33%;
+height: 2.29838rem;
+flex-shrink: 0;
+border-radius: 1.25rem;
+background: #D6CEB7;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+color: #000;
+text-align: center;
+font-family: Inria Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.p-frame{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.photo {
+  width: 11.20131rem;
+  height: 13.43169rem;
+  flex-shrink: 0;
+  border-radius: 1.875rem;
+  margin: 10px;
+  overflow: hidden; /* Add this line to clip overflowing content */
+}
+
+.events-box{
+position: absolute;
+background: #9D2222;
+width: min-content;
+height: auto;
+z-index: 3;
+}
+
+.infra-box{
+background: #4D3739;
+margin-top: 23%;
+width: min-content;
+
+}
+
+.acad-box{
+background: #403D3D;
+margin-top: 23%;
+width: min-content;
+
+}
+.inf{
+
+  width: 11.20131rem;
+height: 13.43169rem;
+flex-shrink: 0;
+border-radius: 1.875rem;
+margin-bottom: 2rem;
+margin: 10px;
+}
+
+.mob-box{
+  display: none;
+}
+
+.content-mob-camp{
+  display: none;
+}
+
+@keyframes shadowAnimation {
+  0% {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  }
+  50% {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
+  }
+  100% {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    transform: scale(1);
+  }
+}
+
+.boxx {
+  animation: shadowAnimation 2s infinite; /* Adjust the duration and timing as needed */
+}
+@media screen and (max-width: 455px) {
+  .boxes {
+    
+    flex-direction: column;
+  }
+
+  .photo {
+    flex-direction: column;
+
+  }
+}
+
+
+
+
+
